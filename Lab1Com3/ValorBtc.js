@@ -1,9 +1,5 @@
 const axios = require('axios');
-
 const fs = require('fs').promises;
-
-
-
 
 axios.get('https://api.coindesk.com/v1/bpi/currentprice.json')
 .then((response)=>{
